@@ -7,7 +7,7 @@
 
 # Site settings
 title: TaeYeong
-brief-intro: Today I Learned
+brief-intro: web developer
 baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site
 # url에 임의의 값을 넣으면
