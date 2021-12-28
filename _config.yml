@@ -59,3 +59,6 @@ paginate: 6
 future: true
 incremental: false
 regenerate: true
+
+# 시간대 변경
+timezone: Asia/Seoul
