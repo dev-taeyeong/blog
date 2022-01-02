@@ -6,8 +6,6 @@
  * 그렇지 않으면 스타일을 취소하십시오.
  */
 (function() {
-    // increaseAccessCount(document.URL)
-
     if (window.innerWidth > 770) {
 
         var sidebarWrap = document.querySelector('.right>.wrap')
