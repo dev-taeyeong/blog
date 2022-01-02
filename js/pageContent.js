@@ -89,15 +89,6 @@ function isMaxHeight() {
         var anchorBtn = document.querySelector('.anchor')
         var rightDiv = document.querySelector('.right')
 
-        /**
-         * 앵커 버튼 듣기
-         */
-        anchorBtn.onclick = function(e) {
-            e.stopPropagation()
-            rightDiv.classList.add('right-show')
-            anchorBtn.classList.add('anchor-hide')
-        }
-
         // 본문을 모니터링하고 본문을 클릭하고 내용을 숨기십시오.
         document.querySelector('body').addEventListener('click', function() {
             rightDiv.classList.remove('right-show')
